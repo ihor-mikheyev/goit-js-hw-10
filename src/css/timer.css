@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat;
+  font-weight: 400;
+}
+#datetime-picker {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  min-width: 17rem;
+  height: 2.5rem;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+}
+
+button {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #4e75ff;
+}
+
+button:hover {
+  background-color: #6c8cff;
+  color: #fff;
+}
+
+button:disabled {
+  color: #989898;
+  background-color: #cfcfcf;
+}
+
+.timer {
+  width: 346px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.value {
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+
+.flatpickr-month {
+  font-weight: 600;
+  /* font-size: 16px; */
+  /* text-align: center; */
+  color: #333;
+}
+
+.flatpickr-weekdays {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #2e2f42;
+}
